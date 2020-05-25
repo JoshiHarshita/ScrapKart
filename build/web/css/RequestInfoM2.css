@@ -1,0 +1,38 @@
+body{
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 100%;
+
+}
+ul{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow:5px 10px 10px #888888;
+}
+li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+li:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+li a
+{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:15px 16px;
+    text-decoration:none;
+}

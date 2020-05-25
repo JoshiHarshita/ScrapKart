@@ -1,0 +1,248 @@
+<html>
+    <head>
+        <title>ScrapKart Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    </head>
+    <body onload="startTimer()">
+        <div class="mysticky">
+            <ul>
+                <li id="logo"><img src="images/logo.jpg" alt="ScrapKart" height="60" width="100"></li>
+                <li><a href="www.google.com">Contact</a></li>
+                <li><a onclick="alert('Please Login first!');">Request PickUp</a></li>
+                <li><a href="www.google.com">Price List</a></li>
+                <li><a href="login.jsp">Login/Register</a></li>
+            </ul>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column left" style="background-color:white;">
+                <img src="images/earth.jpg" height="250" width="250" style="margin-top: 170px;">
+                
+            </div>
+
+            <div class="column middle" style="background-color:white;">
+       
+                <h1 class="head1">YOUR SMART <span id="ScrapKart" style="color:green">ScrapKart</span> !!</h1>
+                <img  id="middleimg" src="images/quote1.png" height="210" width="700">
+                
+            </div>
+            <div class="column right" style="background-color:white;">
+                    <div class=" loginform"  class="form-control">
+                        <h1 class="heading">Login</h1>
+                        <form method="post" action="LoginServlet">
+                            <label>Email:</label><br>
+                            <input type="text" name="email" required><br><br>
+                            <label>Password:</label><br>
+                            <input type="password" name="password" required><br><br>
+    
+                            <input  type="submit" value="Submit" class="btn btn-success"><br><br>
+                        </form>
+                        <p class="confirm">Don't have an account?<a href="registerForm.jsp" style="color:green ;margin-left:6%">Register</a></p>
+                        
+                    </div> 
+                    <button onclick="location.href='Calculator/calculator.html'"  class="btn btn-primary calc">
+                            SCRAPRATE CALCULATOR
+                    </button>  
+            </div>
+           
+        </div>
+       
+        <br><br><br>
+        <br>
+        <br>
+
+        <div class="container-fluid" style=" padding-left: 40px; padding-right:40px">
+
+            <div class="row">
+                <div class="col-sm-3" style=" text-align: center; height:230px" >
+
+                    <div class="flip-card" >
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/earth2.png"  height="100" width="100">
+                                <div class="cont">
+                                    <h4>Sustainability</h4>
+                         
+                                     <p>Our scrap waste management activities at crapbin can assist you to devise an ...</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Our scrap waste management activities at crapbin can assist you to devise an
+                                    overall environmental strategy so you can achieve sustainability goals without give up financial objectives. Sell your scrap now to boost recycling products.</p> 
+                    
+                              </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-sm-3 " style="text-align:center; height:230px" >
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/leaf.png"  height="100" width="100" ">
+                                <div class="cont">
+                                    <h4>Environmental Quality</h4>
+                                    <p>Our primary motto at crapbin is to improve environmental quality ...</p>
+                                 </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Our primary motto at crapbin is to improve environmental quality,
+                                    as it’s very essential for human existence and also for all living organisms. Every month we are turning 5 tones of dry waste into reuse. We are leading scrap buyers in Hyderabad, with a unique identity as online Kabadiwala in Hyderabad. Lets pledge to go green and support our environment.</p> 
+                    
+                              </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-sm-3 " style=" text-align: center; height:230px">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/recycle.png"  height="100" width="100">
+                                <div class="cont">
+                                    <h4>Recycling Services</h4>
+                                    <p>We provide SCRAP PICKUP SERVICE for house hold, communities and industries based...</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>We provide SCRAP PICKUP SERVICE for house hold, communities and industries based in Hyderabad;
+                                    buy all kinds of scrap materials such as Iron scrap, aluminum scrap, plastic scrap, steel scrap, old newspapers, books, electronic appliances, e waste, etc.
+                                    Selling kabaad/scrap has made very easy through crapbin, book our service and we will be at your doorstep to purchase your junk/scrap at standard prices.Book your scrap day with the leading SCRAP BUYERS IN HYDERABAD</p>
+                              </div>
+                        </div>
+                    </div>
+                 </div>
+
+                <div class="col-sm-3 " style="text-align:center; height:230px">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/bin.png"  height="100" width="100">
+                                <div class="cont">
+                                    <h4>Waste Management</h4>
+                                    <p>Crapbin provides outstanding waste management/scrap disposal services ...</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Crapbin provides outstanding
+                                    waste management/scrap disposal services
+                                    in Hyderabad. This includes collecting, segregating, disposal of dry waste, along with monitoring the waste management process. Waste management designed to reduce the hostile effects of waste on human health and the environment. Sell your scrap now with ONLINE KABADIWALA</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <h1 class="WhyRec">WHY <span style="color: green;">RECYCLING</span> ? THE NEED OF THE HOUR </h1>
+        <br><br>
+        <div class="container-fluid content1" >
+            <img src="images/recycle2.jpg" height="250" weight="250" style="float: right;">
+            <p>Every day we encounter hundreds of recyclable items. By recycling properly, you help materials get to their next best use, which in turn saves tons upon tons of raw material, time, energy and expense.
+
+                According to our surveys, we generate as much as 1200 grams of paper and 1.6KG of plastic waste a month per single household! Imagine the number of trees being cut down and the number of land fills being dug for the same - staggering!
+                
+                Recycling paper can go a long way in reducing unwanted garbage especially considering the fact that paper waste constitutes up-to 73 percent of recyclable disposed material. You can be the change, help reduce waste instead of creating it- be the earth’s green warrior, and take pride in every clean locality you see.</p>
+               
+        </div>
+        <br><br><br>
+        <div class="container- fluid" style="background-color:#F2F2F2; height: 355px; "  >
+            <div class="row">
+                <h1 style="color: orange; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">How does it Work?</h1>
+
+                <div class="col-sm-3" style="text-align: center;"">
+                   
+                   <img src="images/calander.jpg" height="150" weight="150" style="margin-top: 30px;">
+                   <p class="steps">1. Book a PickUp</p>
+                </div>
+                   
+                <div class="col-sm-3" style="text-align: center;">
+                    <img src="images/pickupboy.jpg" height="150" weight="150" style="margin-top: 30px;">
+                    <p class="steps">2. PickUp Boy will be at door to collect the stuff</p>
+                </div>
+
+                <div class="col-sm-3" style="text-align: center;">
+                    <img src="images/cash.jpg" height="150" weight="150" style="margin-top: 30px;">
+                    <p class="steps">3. Get paid Cash</p>
+                </div>
+                <div class="col-sm-3" style="text-align: center;">
+                            <img src="images/van.gif" height="250" weight="250" style="margin-top: 0px;">
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <h1 style="text-align: center; color: green; font-size: 3em;">OUR SERVICES</h1>
+        <br><br><br>
+    <div class="container">
+        <button class="accordion"> Scrap PickUp </button>
+        <div class="panel">
+            <img src="images/Service1.png" style="float: right;" height="200" width="200" ">
+            <p style="margin-right: 25 px; padding-top:60px">
+                Raise a pickup now! Our vendor will come to you on the scheduled time to pick up your scrap in exchange for money.
+            </p>  
+        </div>
+
+        <button class="accordion">Scrap Rate Calculator</button>
+        <div class="panel">
+            <img src="images/Service2.png" style="float: right;" height="200" width="200" ">
+            <p style="margin-right: 25 px; padding-top:60px">
+                Want to know the worth of your scrap before selling it of? Use our calculator to calculate how much your waste is worthy.
+        </p>  
+        </div>
+
+        <button class="accordion">Cooprate Tie-up</button>
+        <div class="panel">
+            <img src="images/Service3.png" style="float: right;"  height="200" width="200" ">
+            <p style="margin-right: 25 px; padding-top:60px">
+                We have customized panel for corporates to systematically get rid of the scrap and get certificates of recycling.</p>  
+        </div>
+    </div>
+    <br><br><br>
+       <footer>
+        <div class="container-fluid" style="height: 300px; background-color:#003F2A;">
+            <div class="row" ;">
+               
+            </div>
+
+            </div>
+
+        </div>
+       </footer>
+       
+    </body>
+    <script>
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("middleimg").src = images[x];
+        }
+        function startTimer() {
+            setInterval(displayNextImage, 3000);
+        }
+        var images = ["images/quote1.png","images/quote2.png"], x = -1;
+
+    </script>
+    <script>
+        var acc=document.getElementsByClassName("accordion");
+        var i;
+        for(i=0;i<acc.length;i++)
+        {
+            acc[i].addEventListener("click",function(){
+                this.classList.toggle("active");
+                var panel=this.nextElementSibling;
+                if(panel.style.maxHeight){
+                    panel.style.maxHeight=null;
+                }
+                else{
+                    panel.style.maxHeight=panel.scrollHeight+"px";
+                }
+            });
+        }
+    </script>
+</html>

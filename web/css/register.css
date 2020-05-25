@@ -1,0 +1,170 @@
+body{
+
+    background-image: url("BG.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-color: #003F2A;
+}
+img{
+    width: 10vw;
+    height:4.6vw;
+    padding-left:3.5vw;
+    
+}
+.myrow{
+    margin-top: 0rem;
+    box-shadow:0px 0px 0px 1.6px #ffa600a6; 
+    position:sticky;
+    top:0;
+    z-index:2;
+    background-color: white;
+    right:0;
+    
+}
+span{
+    
+    padding-left: 2vw;
+    padding-right:2vw;
+    font-size:1.1vw;
+    font-family:'PT Sans', sans-serif;
+} 
+.myheader{
+    margin-top: 2vw;
+    padding-left:41vw;
+    padding-bottom:0vw;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+
+span:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+
+/* ul{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow:5px 10px 10px #888888;
+}
+li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:15px;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+li:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+li a
+{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:15px 16px;
+    text-decoration:none;
+} */
+
+
+
+#logo
+{
+   float:left;
+   margin-left:-40px; 
+}
+.registerform
+{
+    /* border: 1px solid green; */
+    border-radius:5px;
+    padding: 10px;
+    /* box-shadow: 5px 10px 10px #888888; */
+    margin-top:10%;
+    background-color:rgba(255, 255, 255, 0.945);
+
+}
+.heading
+{
+    font-family: Gabriola;
+    text-align: center;
+}
+label
+{
+    padding:5px;
+    color:green;
+    font-size: 15px;
+} 
+form
+{
+    margin-left:10%;
+}
+input[type=text],input[type=password]
+{
+    width:80%;
+    border-radius:4px;
+    border:1px solid gray;
+    padding:5px;
+}
+input[type=submit]
+{
+    margin-left:35%;
+    padding:3px 13px;
+    border:1px solid rgb(25, 160, 25);
+    border-radius: 4px;
+    font-size:20px;
+    background-color:rgb(25, 160, 25);
+    color:white;
+    
+}
+input[type=submit]:hover
+{
+    background-color:rgb(2, 107, 2);
+}
+.confirm
+{
+    margin-left:30%;
+    font-size:15px;
+}
+.mybutton
+{
+    background-color: green;
+    margin-left: 20px;
+    color:white;
+    text-align:center;
+    float:right;
+    border-radius: 5px;
+}
+
+table{
+   
+    border-collapse:collapse;
+    width:100%;
+    border-radius:5px;
+    padding: 10px;
+     box-shadow: 5px 10px 10px #888888; 
+    margin-top:3%;
+    background-color:rgba(144, 238, 144, 0.5);
+    padding-bottom: 10px;
+}
+th{
+    color:green;
+}
+th,td{
+    padding:8px;
+    text-align:center;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd ;
+}

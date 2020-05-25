@@ -1,0 +1,78 @@
+body{
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 100%;
+
+}
+img{
+    width: 10vw;
+    height:4.6vw;
+    padding-left:3.5vw;
+    
+}
+.myrow{
+    margin-top: 0rem;
+    box-shadow:0px 0px 0px 1.6px #ffa600a6; 
+    position:sticky;
+    top:0;
+    z-index:2;
+    background-color: white;
+    right:0;
+    
+}
+span{
+    
+    padding-left: 2vw;
+    padding-right:2vw;
+    font-size:1.1vw;
+    font-family:'PT Sans', sans-serif;
+} 
+.myheader{
+    margin-top: 2vw;
+    padding-left:41vw;
+    padding-bottom:0vw;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+
+span:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+
+/* ul{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow:5px 10px 10px #888888;
+}
+li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+li:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+li a
+{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:15px 16px;
+    text-decoration:none;
+} */

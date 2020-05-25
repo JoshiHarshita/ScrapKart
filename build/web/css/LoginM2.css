@@ -1,0 +1,136 @@
+body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+ul{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow:5px 10px 10px #888888;
+}
+li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+li:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+li a
+{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:15px 16px;
+    text-decoration:none;
+}
+
+
+hr{
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+#logo
+{
+   float:left;
+   margin-left:-40px; 
+}
+li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+li:hover
+{
+    color:orangered;
+    cursor:pointer;   
+}
+li a
+{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:15px 16px;
+    text-decoration:none;
+}
+hr
+{
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+#logo
+{
+   float:left;
+   margin-left:-40px; 
+}
+.loginform
+{
+    /* border: 1px solid green; */
+    border-radius:5px;
+    padding: 12px;
+    /*box-shadow: 5px 10px 10px #888888; */
+    margin-top:10%;
+    background-color:whitesmoke;
+
+}
+.heading
+{
+    text-align: center;
+}
+label
+{
+    padding:5px;
+    color:green;
+    font-size: 20px;
+} 
+form
+{
+    margin-left:35%;
+}
+input[type=text],input[type=password]
+{
+    width:60%;
+    border-radius:4px;
+    border:1px solid gray;
+    padding:5px;
+}
+input[type=submit]
+{
+    margin-left:20%;
+    padding:3px 13px;
+    border:1px solid rgb(25, 160, 25);
+    border-radius: 4px;
+    font-size:20px;
+    background-color:rgb(25, 160, 25);
+    color:white;
+    
+}
+input[type=submit]:hover
+{
+    background-color:rgb(2, 107, 2);
+}
+.confirm
+{
+    margin-left:30%;
+    font-size:20px;
+}

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ScrapKart Login Employee</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/LoginM2.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li id="logo"><a href="index.html"><img src="images/logo.jpg" alt="ScrapKart" height="60" width="100"></a></li>
+                
+                <li><a href="LoginM2.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row" >
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 loginform" style="background-color: ">
+                    <h1 class="heading">Employee Login</h1><br>
+                    <form method="post" action="LoginServlet">
+                        <label>Employee Id:</label><br>
+                        <input type="text" name="email" required><br><br>
+                        <label>Password:</label><br>
+                        <input type="password" name="password" required><br><br>
+                        <label>Login As:</label><br>
+                       <h4> <input type="radio" class="form-check-input" name="etype" value="">Manager</h4>
+                        <h4><input type="radio" class="form-check-input" name="etype" value="">PickUp Boy</h4><br>
+
+                        <input  type="submit" value="Submit"><br><br>
+                    </form>
+
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
